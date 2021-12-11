@@ -1,13 +1,9 @@
-import "./App.css";
-import Pro from "./Pro";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Contact from "./Contact";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Pro />
-      </Router>
+      <Contact />
     </div>
   );
 }

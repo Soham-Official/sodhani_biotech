@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.contact {
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: "Poppins", sans-serif;
+  color: #5e5e5e;
+}
+.messageHeading {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: #5e5e5e;
+  font-weight: bold;
+}
+.messageBody {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: #5e5e5e;
+  /* max-width: 80%; */
+}
+.imgDiv {
+  width: 800px !important;
+  height: 450px !important;
+}
+.messageRow {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  margin-top: 15vh;
+}
+.imgOuterDiv {
+  display: flex;
+  margin-left: 50px;
+  /* justify-content: center; */
+  position: relative;
+}
+.borderImg {
+  position: absolute;
+  top: -9%;
+  right: 12%;
+  z-index: -1;
+}
+.map {
+  position: relative;
+}
+.mapborderImg {
+  position: absolute;
+  top: -9%;
+  left: 6%;
+  z-index: -1;
+}
+.iframe {
+  margin-left: 100px;
+}
+.contact_form_container {
+  display: flex;
+  justify-content: center;
+  padding-left: 80px;
+}
+.contactHeader {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  margin-top: -120px;
+  color: #5e5e5e;
+  font-weight: bold;
+}
+.maprow {
+  margin-top: 180px !important;
+}
+.input {
+  border: none;
+  border-bottom: 1px solid #f8831e;
+  width: 92%;
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+  /* padding-top: 70px; */
+  margin-top: 70px;
+}
+.countrycode {
+  width: 50% !important;
+}
+.mobilenumberSection {
+  display: flex;
+}
+.mobnob {
+  margin-left: -160px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #f8831e;
+  width: 67%;
+  padding-top: 70px;
+}
+.select {
+  width: 55%;
+}
+.contactLowerBody {
+  margin-left: 100px;
+}
+.cols {
+  border-right: 1px solid grey;
+
+  padding-right: 30px;
+}
+.cols,
+.cols1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  height: 13vh;
+}
+.contactLowerBody {
+  width: 80%;
+}
+.call,
+.email,
+.location {
+  text-align: center;
+  font-size: 13px;
+}
+.footer {
+  width: 100%;
+  background-color: #5e5e5e;
+  color: white;
+}
