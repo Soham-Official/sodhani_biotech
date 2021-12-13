@@ -1,0 +1,75 @@
+.welcomeSlide {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* align-items: center; */
+  font-family: "Poppins", sans-serif;
+}
+.welcomeText {
+  margin-top: 45vh;
+  color: #f8831e;
+  font-size: 80px;
+  font-weight: bold;
+}
+.welcomeTextSub {
+  font-size: 20px;
+  margin-top: 40px;
+  color: #5e5e5e;
+}
+.downArrow {
+  margin-top: 85px;
+  color: #f8831e;
+  cursor: pointer;
+}
+.weExplore {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: #5e5e5e;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.about {
+  height: 50vh;
+}
+.hrtag {
+  width: 55%;
+  border-bottom: 2px solid #000000;
+}
+* .aboutLeft {
+  margin-top: 100px;
+}
+.rotate {
+  transform: rotate(-90deg);
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  padding-top: 200px;
+}
+.aboutus {
+  color: #f8831e;
+  font-size: 18px;
+}
+.aboutRightBox {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 380px;
+  padding: 25px;
+  padding-top: 45px;
+  font-size: 16px;
+}
+.learnmoreText {
+  color: #f8831e;
+  font-size: 18px;
+}
+.learnmoreHr {
+  width: 45%;
+  border-top: 2px solid #000000;
+}
+.learnmore {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
