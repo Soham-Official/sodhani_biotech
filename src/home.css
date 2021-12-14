@@ -73,3 +73,37 @@
   justify-content: space-between;
   width: 60%;
 }
+.header {
+  font-family: "Poppins", sans-serif;
+  color: #f8831e;
+  font-size: 20px;
+  border-bottom: 1px solid #000000;
+  max-width: 500px;
+  padding-left: 20px;
+  margin-left: 280px;
+}
+.imageGallery {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 120px;
+}
+.imgGallery_img {
+  max-width: 350px;
+  height: 350px !important;
+}
+.subtext {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 23px;
+  margin-top: 45px;
+}
+.border {
+  width: 40%;
+  height: 1px;
+  border-bottom: 2px solid #f8831e !important;
+
+  /* margin: -50px auto 10px; */
+}

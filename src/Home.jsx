@@ -19,10 +19,7 @@ const Home = () => {
           <p>of life</p>
         </div>
       </div>
-      <div
-        className="row
-      about"
-      >
+      <div className="row about">
         <div className="col-md-6  aboutLeft">
           <div className="rotate">
             <p className="aboutus">About Us</p>
@@ -43,6 +40,67 @@ const Home = () => {
             <div className="learnmore">
               <p className="learnmoreText">Learn more</p>
               <hr className="learnmoreHr" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="productCategory">
+        <div className="header">
+          <p>
+            Our{" "}
+            <b>
+              <i>natural</i>{" "}
+            </b>{" "}
+            product category
+          </p>
+        </div>
+        <div className="imageGallery ">
+          <div className="card1">
+            <img
+              className="imgGallery_img"
+              src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+            />
+            <div className="subtext">
+              <p>Natural Vegetable Dyes</p>
+            </div>
+            <div className="d-flex justify-content-center">
+              <div className="border"></div>
+            </div>
+          </div>
+          <div className="card1">
+            <img
+              className="imgGallery_img"
+              src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+            />
+            <div className="subtext">
+              <p>Natural Dye Extracts</p>
+            </div>
+            <div className="d-flex justify-content-center">
+              <div className="border"></div>
+            </div>
+          </div>
+          <div className="card1">
+            <img
+              className="imgGallery_img"
+              src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+            />
+            <div className="subtext">
+              <p>Liquid Dye Extracts</p>
+            </div>
+            <div className="d-flex justify-content-center">
+              <div className="border"></div>
+            </div>
+          </div>
+          <div className="card1">
+            <img
+              className="imgGallery_img"
+              src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+            />
+            <div className="subtext">
+              <p>Organic Cotton Fabric</p>
+            </div>
+            <div className="d-flex justify-content-center">
+              <div className="border"></div>
             </div>
           </div>
         </div>
