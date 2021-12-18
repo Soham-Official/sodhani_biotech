@@ -83,23 +83,6 @@
   /* padding-top: 70px; */
   margin-top: 70px;
 }
-.countrycode {
-  width: 50% !important;
-}
-.mobilenumberSection {
-  display: flex;
-}
-.mobnob {
-  margin-left: -160px;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid #f8831e;
-  width: 67%;
-  padding-top: 70px;
-}
-.select {
-  width: 55%;
-}
 .contactLowerBody {
   margin-left: 100px;
 }
@@ -123,38 +106,4 @@
 .location {
   text-align: center;
   font-size: 13px;
-}
-.footer {
-  width: 98.77vw;
-  background-color: #5e5e5e;
-  color: white;
-  padding: 5px;
-  align-items: center !important;
-  height: 5.5vh;
-}
-.newsletterbutton {
-  background: transparent;
-  border: none;
-  color: white;
-  border: 1px solid white;
-  border-radius: 7px;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-.footercol {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-}
-.quikcons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center !important;
-  width: 60% !important;
-  margin-top: 5px;
-
-  /* padding-left: 100px;
-  padding-right: 100px; */
 }

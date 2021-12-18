@@ -1,0 +1,17 @@
+.countrycode {
+  width: 50% !important;
+}
+.mobilenumberSection {
+  display: flex;
+}
+.mobnob {
+  margin-left: -160px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #f8831e;
+  width: 67%;
+  padding-top: 70px;
+}
+.select {
+  width: 55%;
+}

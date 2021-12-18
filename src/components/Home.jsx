@@ -59,6 +59,7 @@ const Home = () => {
             <img
               className="imgGallery_img"
               src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+              alt=""
             />
             <div className="subtext">
               <p>Natural Vegetable Dyes</p>
@@ -71,6 +72,7 @@ const Home = () => {
             <img
               className="imgGallery_img"
               src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+              alt=""
             />
             <div className="subtext">
               <p>Natural Dye Extracts</p>
@@ -83,6 +85,7 @@ const Home = () => {
             <img
               className="imgGallery_img"
               src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+              alt=""
             />
             <div className="subtext">
               <p>Liquid Dye Extracts</p>
@@ -95,6 +98,7 @@ const Home = () => {
             <img
               className="imgGallery_img"
               src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+              alt=""
             />
             <div className="subtext">
               <p>Organic Cotton Fabric</p>
