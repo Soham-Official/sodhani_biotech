@@ -308,7 +308,15 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="btn btn-outline-warning viewButton">View More </div>
+      <div className="btn btn-outline-warning viewButton ">
+        View More{" "}
+        <i
+          className="fa fa-angle-right"
+          style={{
+            paddingLeft: "10px",
+          }}
+        ></i>
+      </div>
       <br />
       <br />
       <br />

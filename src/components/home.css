@@ -220,9 +220,11 @@
   border-radius: 0px;
   color: #f8831e;
   border-color: #f8831e;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-left: 16%;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 19%;
 }
 .header_explore {
   font-size: 40px;
