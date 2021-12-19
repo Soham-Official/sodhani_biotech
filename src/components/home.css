@@ -151,3 +151,13 @@
   display: flex;
   justify-content: center;
 }
+.circleImage {
+  height: 80vh;
+
+  /* margin-top: 25px; */
+}
+.homeImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
