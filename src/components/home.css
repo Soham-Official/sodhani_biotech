@@ -58,6 +58,7 @@
   padding: 25px;
   padding-top: 45px;
   font-size: 16px;
+  color: #5e5e5e;
 }
 .learnmoreText {
   color: #f8831e;
@@ -82,6 +83,15 @@
   padding-left: 20px;
   margin-left: 280px;
 }
+.tagline {
+  font-family: "Poppins", sans-serif;
+  max-width: 350px;
+  padding-left: 20px;
+  margin-left: 280px;
+  margin-top: 40px;
+  font-size: 40px;
+  color: #5e5e5e;
+}
 .imageGallery {
   display: flex;
   justify-content: space-around;
@@ -99,11 +109,39 @@
   text-align: center;
   font-size: 23px;
   margin-top: 45px;
+  color: #5e5e5e;
 }
 .border {
   width: 40%;
   height: 1px;
   border-bottom: 2px solid #f8831e !important;
-
   /* margin: -50px auto 10px; */
+}
+.motive {
+  margin-top: 250px;
+}
+.homeImage {
+  height: 100vh;
+}
+.motiveRightBox {
+  color: #5e5e5e;
+  font-size: 45px;
+  max-width: 550px;
+  padding-top: 60px;
+}
+.whatwedoCols {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  width: 85%;
+}
+.whatwedo_cols {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 340px;
+  font-size: 16px;
+  color: #5e5e5e;
+}
+.whatwedo_outside {
+  display: flex;
+  justify-content: center;
 }
