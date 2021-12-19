@@ -25,10 +25,10 @@ const Footer = () => {
           </div>
           <div className="col-md-2 footercol">
             <i className="bi bi-facebook me-3"></i>
-            <i class="bi bi-instagram me-3"></i>
-            <i class="bi bi-linkedin me-3"></i>
-            <i class="bi bi-twitter me-3"></i>
-            <i class="bi bi-pinterest me-3"></i>
+            <i className="bi bi-instagram me-3"></i>
+            <i className="bi bi-linkedin me-3"></i>
+            <i className="bi bi-twitter me-3"></i>
+            <i className="bi bi-pinterest me-3"></i>
           </div>
         </div>
       </footer>

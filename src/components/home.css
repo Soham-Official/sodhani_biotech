@@ -262,7 +262,7 @@
 }
 .globe_contents {
   display: flex;
-  margin-left: 19%;
+  margin-left: 20%;
 }
 .heading {
   width: 500px;
@@ -283,5 +283,25 @@
   width: 500px;
 }
 .globeContent_right {
-  margin-left: 80px;
+  margin-left: 200px;
+}
+
+.leftArr {
+  color: #f8831e;
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(0%, -50%);
+  font-size: 40px;
+}
+.rightArr {
+  color: #f8831e;
+  position: absolute;
+  top: 55%;
+  left: 84%;
+  transform: translate(0%, -50%);
+  font-size: 40px;
+}
+.globe {
+  position: relative;
 }

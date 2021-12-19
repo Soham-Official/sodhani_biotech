@@ -14,6 +14,7 @@ import imgConsume from "../images/imgConsume.png";
 import imgBrand from "../images/imgBrand.png";
 import imgFarm from "../images/imgFarm.png";
 import lady from "../images/lady.png";
+import earth from "../images/earth.png";
 
 const Home = () => {
   return (
@@ -329,25 +330,22 @@ const Home = () => {
                 <br /> <b> Colours that help the earth breath.</b>
               </div>
               <div className="globeContent_body">
-                At DIY, our main objective is to revive the lost art of dyeing
-                with natural ingredients and to make it readily available for
-                everyone. And therein we aim to reduce the impact of pollution
-                caused by the chemical laden industry. To do so, we must take a
-                step back and acquaint ourselves with the lost art of natural
-                dyeing. At DIY, our main objective is to revive the lost art of
-                dyeing with natural ingredients and to make it readily available
-                for everyone. And therein we aim to reduce the impact of
-                pollution caused by the chemical laden industry. To do so, we
-                must take a step back and acquaint ourselves with the lost art
-                of natural dyeing.
+                It is agreed all over the world that the textile industry is a
+                significant contributor to pollution. Almost “2000” different
+                types of chemicals used in the industry consume as well as
+                contaminate freshwater. In legacy pollution sites, untreated
+                wastewater from the chemical dye industry is being directly
+                dumped into surface water. It is estimated that textile dyeing
+                contributes to up to 20 percent of water pollution by swapping
+                natural dyes with synthetic dyes, you are choosing a cleaner
+                alternative while staying connected to nature!
               </div>
             </div>
+            <i className="fa fa-angle-left leftArr"></i>
             <div className="globeContent_right">
-              <img
-                className="globeContent_right_image"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMv_XRZ0UjiUG8YjFt3agB3qdMzB5YNNZbG07oDYhN2hBdAnHIRv6Ppyih4KS4OhHW0Qc&usqp=CAU"
-              />
+              <img className="globeContent_right_image" src={earth} />
             </div>
+            <i className="fa fa-angle-right rightArr"></i>
           </div>
         </div>
       </div>
