@@ -4,6 +4,7 @@ import img1 from "../images/1.png";
 import img2 from "../images/2.png";
 import img3 from "../images/3.png";
 import img4 from "../images/4.png";
+import circle from "../images/circle.png";
 
 const Home = () => {
   return (
@@ -114,7 +115,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="homeImage"></div>
+      <div className="homeImage">
+        <img src={circle} className="circleImage" />
+      </div>
       <div className="whatwedo">
         <div className="header">
           <p>
