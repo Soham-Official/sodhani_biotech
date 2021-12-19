@@ -289,6 +289,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="btn btn-outline-warning viewButton">View More </div>
       <br />
       <br />
       <br />

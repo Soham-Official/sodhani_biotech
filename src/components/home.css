@@ -215,3 +215,12 @@
   font-family: "Poppins", sans-serif;
   color: #5e5e5e;
 }
+
+.viewButton {
+  border-radius: 0px;
+  color: #f8831e;
+  border-color: #f8831e;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 16%;
+}
