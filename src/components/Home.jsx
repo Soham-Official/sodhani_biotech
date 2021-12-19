@@ -116,7 +116,7 @@ const Home = () => {
         </div>
       </div>
       <div className="homeImage">
-        <img src={circle} className="circleImage" />
+        <img src={circle} className="circleImage" alt="" />
       </div>
       <div className="whatwedo">
         <div className="header">
@@ -134,52 +134,30 @@ const Home = () => {
         <div className="whatwedo_outside">
           <div className="whatwedoCols">
             <div className="whatwedo_cols">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various versions
-              have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
+              Natural Colours are Non- Toxic, Non-Allergic & Hazard Free for
+              skin and are acceptable everywhere in today’s world since Medieval
+              Times. With not just only use for dyeing, these colours have
+              numerous Medicinal Properties which are beneficial for Healthy
+              Life.
             </div>
             <div className="whatwedo_cols">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various versions
-              have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
+              They come from natural sources, natural dyes are not harmful to
+              the environment, which makes it so appealing for consumers.
+              Natural dyes are biodegradable and disposing them don’t cause
+              pollution.
             </div>
             <div className="whatwedo_cols">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various versions
-              have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
+              Natural dyes are obtained from renewable sources that can be
+              harnessed without imposing harm to the environment. They come from
+              natural sources, natural dyes are not harmful to the environment,
+              which makes it so appealing for consumers. Natural dyes are
+              biodegradable and disposing them don’t cause pollution.
             </div>
             <div className="whatwedo_cols">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various versions
-              have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
+              Many of the natural dye which you see in our list comes from
+              waste, which include products like onion peels, pomegranate peels,
+              walnut shells, lac dye, marigold flowers, avocado seeds etc which
+              is reducing burden from the environment eventually.
             </div>
           </div>
         </div>
