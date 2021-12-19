@@ -5,19 +5,20 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light navbar-light fixed-top p-0">
-      <div className="container">
-        <a href="/#" className="navbar-brand">
-          <img src={logo} className="nav-logo-icon" alt="icon-logo" />
-        </a>
+      <div className="navContainer_outside">
+        <div className="navContainer">
+          <a href="/#" className="navbar-brand">
+            <img src={logo} className="nav-logo-icon" alt="icon-logo" />
+          </a>
 
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
         <div className="collapse navbar-collapse" id="navmenu">
           <ul className="navbar-nav ms-auto">
