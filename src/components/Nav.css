@@ -5,3 +5,13 @@ nav {
 .nav-logo-icon {
   max-height: 50px;
 }
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.navContainer_outside {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
