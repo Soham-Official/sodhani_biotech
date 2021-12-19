@@ -277,14 +277,33 @@ const Home = () => {
       <div className="motive">
         <div className="row">
           <div className="col-md-6  aboutLeft">
-            <div className="rotate">
-              <p className="aboutus">D.I.Y workshops</p>
-              <hr className="hrtag" />
+            <div className="d-flex">
+              <div className="rotate">
+                <p className="aboutus">D.I.Y workshops</p>
+                <hr className="hrtag" />
+              </div>
+              <div className="explore_content">
+                <div className="header_explore">
+                  <p>
+                    Explore
+                    <br />
+                    <b>Natural dye studios.</b>
+                  </p>
+                </div>
+                <div>
+                  At DIY, our main objective is to revive the lost art of dyeing
+                  with natural ingredients and to make it readily available for
+                  everyone. And therein we aim to reduce the impact of pollution
+                  caused by the chemical laden industry. To do so, we must take
+                  a step back and acquaint ourselves with the lost art of
+                  natural dyeing.
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-md-6 " style={{ paddingLeft: "40px" }}>
-            <div className="text-center">
-              <img src={lady} alt="" className="w-50" />
+            <div style={{ textAlign: "center" }}>
+              <img src={lady} alt="" className="imgLady" />
             </div>
           </div>
         </div>
