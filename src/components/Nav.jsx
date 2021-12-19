@@ -1,6 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import logo from "../images/Logo.png";
+import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light navbar-light fixed-top p-0">
@@ -21,9 +22,9 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navmenu">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a href="/#" className="nav-link">
+              <Link to="/" className="nav-link">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a href="/#" className="nav-link">
@@ -51,9 +52,9 @@ const Nav = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="/#" className="nav-link">
+              <Link to="/contact" className="nav-link">
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

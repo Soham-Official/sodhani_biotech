@@ -23,7 +23,13 @@ const Footer = () => {
               <p className="m-0">Payment Methods</p>
             </div>
           </div>
-          <div className="col-md-2 footercol">dcba</div>
+          <div className="col-md-2 footercol">
+            <i className="bi bi-facebook me-3"></i>
+            <i class="bi bi-instagram me-3"></i>
+            <i class="bi bi-linkedin me-3"></i>
+            <i class="bi bi-twitter me-3"></i>
+            <i class="bi bi-pinterest me-3"></i>
+          </div>
         </div>
       </footer>
     </div>
