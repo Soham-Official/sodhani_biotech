@@ -121,6 +121,7 @@
 .home {
   max-width: 100vw;
   overflow-x: hidden;
+  background-image: url("../images/back.png");
 }
 .motive {
   margin-top: 250px;

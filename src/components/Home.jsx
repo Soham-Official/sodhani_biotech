@@ -1,5 +1,10 @@
 import React from "react";
 import "./home.css";
+import img1 from "../images/1.png";
+import img2 from "../images/2.png";
+import img3 from "../images/3.png";
+import img4 from "../images/4.png";
+
 const Home = () => {
   return (
     <div className="home">
@@ -56,11 +61,7 @@ const Home = () => {
         </div>
         <div className="imageGallery ">
           <div className="card1">
-            <img
-              className="imgGallery_img"
-              src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-              alt=""
-            />
+            <img className="imgGallery_img" src={img1} alt="" />
             <div className="subtext">
               <p>Natural Vegetable Dyes</p>
             </div>
@@ -69,11 +70,7 @@ const Home = () => {
             </div>
           </div>
           <div className="card1">
-            <img
-              className="imgGallery_img"
-              src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-              alt=""
-            />
+            <img className="imgGallery_img" src={img2} alt="" />
             <div className="subtext">
               <p>Natural Dye Extracts</p>
             </div>
@@ -82,11 +79,7 @@ const Home = () => {
             </div>
           </div>
           <div className="card1">
-            <img
-              className="imgGallery_img"
-              src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-              alt=""
-            />
+            <img className="imgGallery_img" src={img3} alt="" />
             <div className="subtext">
               <p>Liquid Dye Extracts</p>
             </div>
@@ -95,11 +88,7 @@ const Home = () => {
             </div>
           </div>
           <div className="card1">
-            <img
-              className="imgGallery_img"
-              src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-              alt=""
-            />
+            <img className="imgGallery_img" src={img4} alt="" />
             <div className="subtext">
               <p>Organic Cotton Fabric</p>
             </div>
