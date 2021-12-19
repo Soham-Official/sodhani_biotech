@@ -308,7 +308,49 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="btn btn-outline-warning viewButton">View More </div>
+      <div className="btn btn-outline-warning viewButton ">
+        View More{" "}
+        <i
+          className="fa fa-angle-right"
+          style={{
+            paddingLeft: "10px",
+          }}
+        ></i>
+      </div>
+      <div className="globe">
+        <div className="header_globe">
+          <p>Environmental footprints</p>
+        </div>
+        <div className="globe_contents">
+          <div className="globeContent">
+            <div className="globeContent_left">
+              <div className="heading">
+                <i>Dyeing to survive</i>
+                <br /> <b> Colours that help the earth breath.</b>
+              </div>
+              <div className="globeContent_body">
+                At DIY, our main objective is to revive the lost art of dyeing
+                with natural ingredients and to make it readily available for
+                everyone. And therein we aim to reduce the impact of pollution
+                caused by the chemical laden industry. To do so, we must take a
+                step back and acquaint ourselves with the lost art of natural
+                dyeing. At DIY, our main objective is to revive the lost art of
+                dyeing with natural ingredients and to make it readily available
+                for everyone. And therein we aim to reduce the impact of
+                pollution caused by the chemical laden industry. To do so, we
+                must take a step back and acquaint ourselves with the lost art
+                of natural dyeing.
+              </div>
+            </div>
+            <div className="globeContent_right">
+              <img
+                className="globeContent_right_image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMv_XRZ0UjiUG8YjFt3agB3qdMzB5YNNZbG07oDYhN2hBdAnHIRv6Ppyih4KS4OhHW0Qc&usqp=CAU"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       <br />
       <br />
       <br />
