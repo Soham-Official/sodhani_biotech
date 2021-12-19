@@ -13,6 +13,7 @@ import imgNature from "../images/imgNature.png";
 import imgConsume from "../images/imgConsume.png";
 import imgBrand from "../images/imgBrand.png";
 import imgFarm from "../images/imgFarm.png";
+import lady from "../images/lady.png";
 
 const Home = () => {
   return (
@@ -205,7 +206,7 @@ const Home = () => {
       <div className="whatwedo">
         <div className="header">
           <p>
-            Whoo{" "}
+            Who{" "}
             <b>
               <i>will</i>{" "}
             </b>{" "}
@@ -263,6 +264,25 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="motive">
+        <div className="row">
+          <div className="col-md-6  aboutLeft">
+            <div className="rotate">
+              <p className="aboutus">D.I.Y workshops</p>
+              <hr className="hrtag" />
+            </div>
+          </div>
+          <div className="col-md-6 " style={{ paddingLeft: "40px" }}>
+            <div className="text-center">
+              <img src={lady} alt="" className="w-50" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 };
