@@ -277,9 +277,28 @@ const Home = () => {
       <div className="motive">
         <div className="row">
           <div className="col-md-6  aboutLeft">
-            <div className="rotate">
-              <p className="aboutus">D.I.Y workshops</p>
-              <hr className="hrtag" />
+            <div className="d-flex">
+              <div className="rotate">
+                <p className="aboutus">D.I.Y workshops</p>
+                <hr className="hrtag" />
+              </div>
+              <div className="explore_content">
+                <div className="header_explore">
+                  <p>
+                    Explore
+                    <br />
+                    <b>Natural dye studios.</b>
+                  </p>
+                </div>
+                <div>
+                  t is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here, content here', making it look like readable English. t
+                  is a long established fact that a reader will be distracted by
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-md-6 " style={{ paddingLeft: "40px" }}>
