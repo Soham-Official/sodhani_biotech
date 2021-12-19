@@ -149,7 +149,9 @@ const Home = () => {
               <div className="d-flex justify-content-center mt-3 mb-3">
                 <div className="border2"></div>
               </div>
-              <p className="text-center">Health Benefits</p>
+              <p className="text-center">
+                <b>Health Benefits</b>
+              </p>
               Natural Colours are Non- Toxic, Non-Allergic & Hazard Free for
               skin and are acceptable everywhere in today’s world since Medieval
               Times. With not just only use for dyeing, these colours have
@@ -163,7 +165,9 @@ const Home = () => {
               <div className="d-flex justify-content-center mt-3 mb-3">
                 <div className="border2"></div>
               </div>
-              <p className="text-center">Environmental Impact</p>
+              <p className="text-center">
+                <b>Environmental Impact</b>
+              </p>
               They come from natural sources, natural dyes are not harmful to
               the environment, which makes it so appealing for consumers.
               Natural dyes are biodegradable and disposing them don’t cause
@@ -176,7 +180,9 @@ const Home = () => {
               <div className="d-flex justify-content-center mt-3 mb-3">
                 <div className="border2"></div>
               </div>
-              <p className="text-center">Renewbility</p>
+              <p className="text-center">
+                <b>Renewbility</b>
+              </p>
               Natural dyes are obtained from renewable sources that can be
               harnessed without imposing harm to the environment. They come from
               natural sources, natural dyes are not harmful to the environment,
@@ -190,7 +196,9 @@ const Home = () => {
               <div className="d-flex justify-content-center mt-3 mb-3">
                 <div className="border2"></div>
               </div>
-              <p className="text-center">Recycling</p>
+              <p className="text-center">
+                <b>Recycling</b>
+              </p>
               Many of the natural dye which you see in our list comes from
               waste, which include products like onion peels, pomegranate peels,
               walnut shells, lac dye, marigold flowers, avocado seeds etc which
@@ -205,61 +213,63 @@ const Home = () => {
       <br />
       <div className="whatwedo">
         <div className="header">
-          <p>
-            Who{" "}
-            <b>
-              <i>will</i>{" "}
-            </b>{" "}
-            benefit
-          </p>
+          <p>Who will benefit</p>
         </div>
-        <div className="tagline">
-          <i>Exploring vibrance of Natural Colours.</i>
+        <div className="tagline_vibrance">
+          <i>Exploring vibrance of</i> <b>Natural Colours.</b>
         </div>
         <div className="whatwedo_outside">
           <div className="whatwedoCols">
-            <div className="whatwedo_cols">
+            <div className="whatwedo_cols2">
               <div className="imgBox">
                 <img src={imgNature} alt="" className="w-100" />
                 <div className="imgText">Nature</div>
               </div>
-              Unlike synthetic/artificial dyes, natural dyes neither contain
-              carcinogenic components nor harmful chemicals! By preferring
-              natural dyes over these other choices, you are lowering human
-              dependence on harmful products, thus helping preserve our
-              environment. Like they say, there is no Plan-et B. Life.
+              <div className="vibrance_subtext">
+                Unlike synthetic/artificial dyes, natural dyes neither contain
+                carcinogenic components nor harmful chemicals! By preferring
+                natural dyes over these other choices, you are lowering human
+                dependence on harmful products, thus helping preserve our
+                environment. Like they say, there is no Plan-et B. Life.
+              </div>
             </div>
-            <div className="whatwedo_cols">
+            <div className="whatwedo_cols2">
               <div className="imgBox">
                 <img src={imgConsume} alt="" className="w-100" />
                 <div className="imgText">Consumers</div>
               </div>
-              Natural dye is a perfect alternative for responsible people who
-              want the best without all the environmental defilement.. If you’re
-              shopping around for dyes that are not harmful to the environment,
-              you can begin your search with us. Our products are not only
-              eco-friendly but also efficient in providing solutions for
-              specific dyeing needs.
+              <div className="vibrance_subtext">
+                Natural dye is a perfect alternative for responsible people who
+                want the best without all the environmental defilement.. If
+                you’re shopping around for dyes that are not harmful to the
+                environment, you can begin your search with us. Our products are
+                not only eco-friendly but also efficient in providing solutions
+                for specific dyeing needs.
+              </div>
             </div>
-            <div className="whatwedo_cols">
+            <div className="whatwedo_cols2">
               <div className="imgBox">
                 <img src={imgBrand} alt="" className="w-100" />
                 <div className="imgText">Fashion Brands</div>
+              </div>{" "}
+              <div className="vibrance_subtext">
+                Sustainability is not luxury but a necessity in today's business
+                environment - A prominent reason why most fashion brands are
+                switching to sustainable fashion and incorporating natural dyes.
               </div>
-              Sustainability is not luxury but a necessity in today's business
-              environment - A prominent reason why most fashion brands are
-              switching to sustainable fashion and incorporating natural dyes.
             </div>
-            <div className="whatwedo_cols">
+            <div className="whatwedo_cols2">
               <div className="imgBox">
                 <img src={imgFarm} alt="" className="w-100" />
                 <div className="imgText">Local Farmers</div>
+              </div>{" "}
+              <div className="vibrance_subtext">
+                Huge employment is generated by crop cultivation, collection of
+                leaves, flowers, and fruits, including the cleaning of herbal
+                materials! Fun Fact-Production of 1 kg bio indigo provides
+                employment to two rural farmers. Additionally, being a legume
+                crop, it also supports the environment.
               </div>
-              Huge employment is generated by crop cultivation, collection of
-              leaves, flowers, and fruits, including the cleaning of herbal
-              materials! Fun Fact-Production of 1 kg bio indigo provides
-              employment to two rural farmers. Additionally, being a legume
-              crop, it also supports the environment.
             </div>
           </div>
         </div>
