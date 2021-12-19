@@ -5,6 +5,10 @@ import img2 from "../images/2.png";
 import img3 from "../images/3.png";
 import img4 from "../images/4.png";
 import circle from "../images/circle.png";
+import health from "../images/health.png";
+import nature from "../images/nature.png";
+import tick from "../images/tick.png";
+import recycle from "../images/recycle.png";
 
 const Home = () => {
   return (
@@ -134,6 +138,13 @@ const Home = () => {
         <div className="whatwedo_outside">
           <div className="whatwedoCols">
             <div className="whatwedo_cols">
+              <div className="text-center">
+                <img src={health} alt="" />
+              </div>
+              <div className="d-flex justify-content-center mt-3 mb-3">
+                <div className="border2"></div>
+              </div>
+              <p className="text-center">Health Benefits</p>
               Natural Colours are Non- Toxic, Non-Allergic & Hazard Free for
               skin and are acceptable everywhere in today’s world since Medieval
               Times. With not just only use for dyeing, these colours have
@@ -141,12 +152,26 @@ const Home = () => {
               Life.
             </div>
             <div className="whatwedo_cols">
+              <div className="text-center">
+                <img src={nature} alt="" />
+              </div>
+              <div className="d-flex justify-content-center mt-3 mb-3">
+                <div className="border2"></div>
+              </div>
+              <p className="text-center">Environmental Impact</p>
               They come from natural sources, natural dyes are not harmful to
               the environment, which makes it so appealing for consumers.
               Natural dyes are biodegradable and disposing them don’t cause
               pollution.
             </div>
             <div className="whatwedo_cols">
+              <div className="text-center">
+                <img src={tick} alt="" />
+              </div>
+              <div className="d-flex justify-content-center mt-3 mb-3">
+                <div className="border2"></div>
+              </div>
+              <p className="text-center">Renewbility</p>
               Natural dyes are obtained from renewable sources that can be
               harnessed without imposing harm to the environment. They come from
               natural sources, natural dyes are not harmful to the environment,
@@ -154,6 +179,13 @@ const Home = () => {
               biodegradable and disposing them don’t cause pollution.
             </div>
             <div className="whatwedo_cols">
+              <div className="text-center">
+                <img src={recycle} alt="" />
+              </div>
+              <div className="d-flex justify-content-center mt-3 mb-3">
+                <div className="border2"></div>
+              </div>
+              <p className="text-center">Recycling</p>
               Many of the natural dye which you see in our list comes from
               waste, which include products like onion peels, pomegranate peels,
               walnut shells, lac dye, marigold flowers, avocado seeds etc which

@@ -115,7 +115,6 @@
   width: 40%;
   height: 1px;
   border-bottom: 2px solid #f8831e !important;
-  /* margin: -50px auto 10px; */
 }
 
 .home {
@@ -155,11 +154,15 @@
 }
 .circleImage {
   height: 80vh;
-
-  /* margin-top: 25px; */
 }
 .homeImage {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.border2 {
+  width: 20%;
+  height: 1px;
+  border-bottom: 2px solid #f8831e !important;
 }
