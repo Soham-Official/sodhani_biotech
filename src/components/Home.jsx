@@ -343,7 +343,11 @@ const Home = () => {
             </div>
             <i className="fa fa-angle-left leftArr"></i>
             <div className="globeContent_right">
-              <img className="globeContent_right_image" src={earth} />
+              <img
+                className="globeContent_right_image"
+                src={earth}
+                alt="globe"
+              />
             </div>
             <i className="fa fa-angle-right rightArr"></i>
           </div>
