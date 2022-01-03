@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  /* align-items: center; */
   font-family: "Poppins", sans-serif;
 }
 .welcomeText {
@@ -17,6 +16,132 @@
   margin-top: 40px;
   color: #5e5e5e;
 }
+@media screen and (max-width: 1600px) {
+  .welcomeText {
+    font-size: 75px;
+  }
+  .welcomeTextSub {
+    font-size: 19px;
+  }
+  .weExplore {
+    font-size: 35px !important;
+  }
+  .productCategory {
+    margin-top: 10vh;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .welcomeText {
+    font-size: 65px;
+  }
+  .welcomeTextSub {
+    font-size: 18px;
+  }
+  .weExplore {
+    font-size: 33px !important;
+  }
+  .aboutus {
+    font-size: 17px !important;
+  }
+  .aboutRightBox {
+    width: 350px !important;
+    font-size: 15px !important;
+  }
+  .learnmoreText {
+    font-size: 17px !important;
+  }
+  .header {
+    font-size: 18px !important;
+    margin-left: 250px !important;
+  }
+  .imageGallery {
+    margin-top: 70px !important;
+  }
+  .imgGallery_img {
+    max-width: 300px !important;
+    max-height: 300px !important;
+  }
+  .subtext {
+    font-size: 20px !important;
+    margin-top: 25px !important;
+  }
+  .rotate {
+    width: 70% !important;
+    margin-left: -100px !important;
+  }
+  .motiveRightBox {
+    font-size: 30px !important;
+    max-width: 350px !important;
+  }
+  .tagline {
+    max-width: 350px;
+    font-size: 35px !important;
+  }
+  .whatwedo_cols {
+    width: 250px !important;
+    font-size: 15px !important;
+    padding: 20px !important;
+    padding-top: 55px !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .welcomeText {
+    font-size: 60px;
+  }
+  .welcomeTextSub {
+    font-size: 17px;
+  }
+  .weExplore {
+    font-size: 30px !important;
+  }
+  .aboutus {
+    font-size: 16px !important;
+  }
+  .aboutRightBox {
+    width: 330px !important;
+    font-size: 14px !important;
+  }
+  .learnmoreText {
+    font-size: 16px !important;
+  }
+  .header {
+    font-size: 17px !important;
+    margin-left: 240px !important;
+  }
+  .imageGallery {
+    margin-top: 40px !important;
+  }
+  .imgGallery_img {
+    max-width: 250px !important;
+    max-height: 250px !important;
+  }
+  .subtext {
+    font-size: 17px !important;
+    margin-top: 15px !important;
+  }
+  .motiveRightBox {
+    font-size: 25px !important;
+    max-width: 300px !important;
+    padding-top: 100px !important;
+  }
+  .tagline {
+    max-width: 280px !important;
+    font-size: 28px !important;
+  }
+  .whatwedo_cols {
+    width: 200px !important;
+    font-size: 14px !important;
+    padding: 15px !important;
+    padding-top: 60px !important;
+    font-family: "Poppins", sans-serif;
+
+    text-align: center;
+  }
+}
+
 .downArrow {
   margin-top: 85px;
   color: #f8831e;
@@ -46,6 +171,7 @@
   display: flex;
   justify-content: space-around;
   width: 40%;
+  /* margin-left: -50px; */
   padding-top: 200px;
 }
 .aboutus {
@@ -128,6 +254,7 @@
 }
 .homeImage {
   height: 100vh;
+  margin-top: 10vh;
 }
 .motiveRightBox {
   color: #5e5e5e;
