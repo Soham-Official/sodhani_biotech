@@ -59,6 +59,7 @@
   padding-top: 45px;
   font-size: 16px;
   color: #5e5e5e;
+  background-color: white;
 }
 .learnmoreText {
   color: #f8831e;
@@ -205,6 +206,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   text-align: center;
+  background-color: white;
 }
 .vibrance_subtext {
   width: 250px;
@@ -227,6 +229,12 @@
   padding-bottom: 15px;
   margin-left: 19%;
 }
+
+.viewButton:hover {
+  background-color: #f8831e;
+  color: white;
+}
+
 .header_explore {
   font-size: 40px;
   font-family: "Poppins", sans-serif;

@@ -15,3 +15,22 @@ nav {
   display: flex;
   justify-content: center;
 }
+
+.border3 {
+  width: 60%;
+  height: 1px;
+  border-bottom: 2px solid #f8831e !important;
+}
+
+.nav-item:hover {
+  color: white;
+  background-color: #f8831e;
+}
+
+#activeLine {
+  display: none;
+}
+
+a.nav-link.nav-active span#activeLine {
+  display: contents;
+}
