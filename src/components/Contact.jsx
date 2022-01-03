@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import img1 from "../images/contact.jpeg";
+import img1 from "../images/newContact1.png";
 import img2 from "../images/contact-border.jpeg";
 import Input from "./Input";
 
@@ -22,7 +22,6 @@ const Contact = () => {
               </div>
               <div className="col-md-7">
                 <div className="imgOuterDiv">
-                  <img src={img2} className="borderImg" alt="" />
                   <img className="imgDiv" src={img1} alt="" />
                 </div>
               </div>
@@ -34,12 +33,14 @@ const Contact = () => {
                   <div className="iframe">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.6123466463264!2d75.77905851540322!3d26.852279469152595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5bf191c6adb%3A0x4af3c3644b32dfc7!2sSodhani%20Biotech%20Private%20Limited!5e0!3m2!1sen!2sin!4v1639250092367!5m2!1sen!2sin"
-                      width="800"
+                      width="100%"
+                      className="iframe_inner"
                       height="450"
                       loading="lazy"
                       title="map"
                     ></iframe>
                   </div>
+
                   <div className="row contactLowerBody mt-4">
                     <div className="col-4 ">
                       <div className="cols">
