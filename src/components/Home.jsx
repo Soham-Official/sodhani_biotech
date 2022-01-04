@@ -291,7 +291,7 @@ const Home = () => {
                     <b>Natural dye studios.</b>
                   </p>
                 </div>
-                <div>
+                <div className="explore_subtext">
                   At DIY, our main objective is to revive the lost art of dyeing
                   with natural ingredients and to make it readily available for
                   everyone. And therein we aim to reduce the impact of pollution
@@ -312,7 +312,7 @@ const Home = () => {
       <div className="btn btn-outline-warning viewButton ">
         View More{" "}
         <i
-          className="fa fa-angle-right"
+          className="fa fa-angle-right rightbtn"
           style={{
             paddingLeft: "10px",
           }}
@@ -341,7 +341,7 @@ const Home = () => {
                 alternative while staying connected to nature!
               </div>
             </div>
-            <i className="fa fa-angle-left leftArr"></i>
+            {/* <i className="fa fa-angle-left leftArr"></i> */}
             <div className="globeContent_right">
               <img
                 className="globeContent_right_image"
@@ -349,7 +349,7 @@ const Home = () => {
                 alt="globe"
               />
             </div>
-            <i className="fa fa-angle-right rightArr"></i>
+            {/* <i className="fa fa-angle-right rightArr"></i> */}
           </div>
         </div>
       </div>
