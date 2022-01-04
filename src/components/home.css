@@ -29,6 +29,9 @@
   .productCategory {
     margin-top: 10vh;
   }
+  .globe {
+    margin-left: -120px !important;
+  }
 }
 @media screen and (max-width: 1366px) {
   .welcomeText {
@@ -86,6 +89,59 @@
     font-size: 18px;
     text-align: center;
   }
+  .tagline_vibrance {
+    max-width: 350px;
+    font-size: 35px !important;
+  }
+  .whatwedo_cols2 {
+    width: 250px !important;
+    font-size: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  .vibrance_subtext {
+    margin-top: 10px !important;
+    transform: translate(1%, 0%) !important;
+    padding: 15px !important;
+  }
+  .imgText {
+    font-size: 19px !important;
+  }
+  .header_explore {
+    font-size: 33px !important;
+  }
+  .explore_subtext {
+    font-size: 16px !important;
+    max-width: 340px !important;
+  }
+  .imgLady {
+    width: 75% !important;
+    margin-top: -50px !important;
+    margin-left: 20px !important;
+  }
+  .viewButton {
+    margin-left: 290px !important;
+    font-size: 15px !important;
+  }
+  .header_globe {
+    font-size: 17px !important;
+    margin-left: 250px !important;
+  }
+  .heading {
+    width: 400px !important;
+    font-size: 33px !important;
+  }
+  .globeContent_body {
+    width: 390px !important;
+    font-size: 16px !important;
+  }
+  .globeContent_right_image {
+    height: 400px !important;
+    margin-top: 60px !important;
+    width: 380px !important;
+  }
+  .globeContent_right {
+    margin-left: 200px !important;
+  }
 }
 @media screen and (max-width: 1100px) {
   .welcomeText {
@@ -135,10 +191,70 @@
     width: 200px !important;
     font-size: 14px !important;
     padding: 15px !important;
-    padding-top: 60px !important;
+    padding-top: 55px !important;
     font-family: "Poppins", sans-serif;
-
     text-align: center;
+  }
+  .tagline_vibrance {
+    max-width: 300px !important;
+    font-size: 28px !important;
+  }
+  .whatwedo_cols2 {
+    width: 200px !important;
+    font-size: 14px !important;
+    padding-bottom: 15px !important;
+  }
+  .vibrance_subtext {
+    margin-top: 10px !important;
+    transform: translate(-10%, 0%) !important;
+    padding: 35px !important;
+  }
+  .imgText {
+    font-size: 16px !important;
+  }
+  .header_explore {
+    font-size: 28px !important;
+  }
+  .explore_subtext {
+    font-size: 14px !important;
+    max-width: 323px !important;
+  }
+  .imgLady {
+    width: 80% !important;
+    margin-top: -40px !important;
+    margin-left: 20px !important;
+  }
+  .viewButton {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 170px !important;
+    font-size: 14px !important;
+  }
+  .rightbtn {
+    padding-left: 8px !important;
+  }
+  .header_globe {
+    font-size: 16px !important;
+    margin-left: 250px !important;
+  }
+  .heading {
+    width: 350px !important;
+    margin-top: 15px !important;
+    font-size: 28px !important;
+  }
+  .globeContent_body {
+    width: 370px !important;
+    font-size: 15px !important;
+  }
+  .globeContent_right_image {
+    height: 300px !important;
+    margin-top: 100px !important;
+    width: 300px !important;
+  }
+  .globeContent_right {
+    margin-left: 100px !important;
   }
 }
 
@@ -291,18 +407,15 @@
   justify-content: center;
   align-items: center;
 }
-
 .border2 {
   width: 20%;
   height: 1px;
   border-bottom: 2px solid #f8831e !important;
 }
-
 .imgBox {
   position: relative;
   text-align: center;
 }
-
 .imgText {
   background-color: white;
   width: 80%;
@@ -310,8 +423,8 @@
   position: absolute;
   bottom: 0px;
   left: 50%;
-  transform: translate(-50%, 0%);
-  padding-top: 10px;
+  transform: translate(-50%, 5%);
+  padding-top: 15px;
   padding-bottom: 5px;
   color: #f8831e;
   font-size: 23px;
@@ -414,14 +527,15 @@
   padding: 15px;
 }
 .globeContent_right_image {
-  height: 550px;
-  width: 500px;
+  height: 450px;
+  margin-top: 40px;
+  width: 400px;
 }
 .globeContent_right {
-  margin-left: 200px;
+  margin-left: 250px;
 }
 
-.leftArr {
+/* .leftArr {
   color: #f8831e;
   position: absolute;
   top: 55%;
@@ -436,7 +550,7 @@
   left: 84%;
   transform: translate(0%, -50%);
   font-size: 40px;
-}
-.globe {
+} */
+/* .globe {
   position: relative;
-}
+} */
