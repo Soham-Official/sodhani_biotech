@@ -1,0 +1,48 @@
+.certificate {
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #5e5e5e;
+}
+.certificate_row {
+  margin-top: 50px;
+  height: 86.3vh;
+}
+.center {
+  display: flex;
+  align-items: center;
+}
+.right {
+  justify-content: flex-end;
+}
+.certificate_heading {
+  font-size: 40px;
+  font-weight: bold;
+}
+.certificate_subtext {
+  margin-top: 18px;
+  font-size: 20px;
+  max-width: 480px;
+}
+.left_col {
+  padding-left: 90px;
+}
+.right_col {
+  margin-right: 120px;
+}
+@media screen and (max-width: 1366px) {
+  .certificate_heading {
+    font-size: 35px;
+  }
+  .certificate_subtext {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .certificate_heading {
+    font-size: 28px !important;
+  }
+
+  .certificate_subtext {
+    font-size: 17px;
+  }
+}

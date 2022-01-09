@@ -48,9 +48,19 @@ const Nav = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="/#" className="nav-link">
+                <NavLink
+                  to="/certificate"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link nav-active" : "nav-link"
+                  }
+                >
                   Certificates
-                </a>
+                  <span id="activeLine">
+                    <div className="d-flex justify-content-center">
+                      <div className="border3"></div>
+                    </div>
+                  </span>
+                </NavLink>
               </li>
               <li className="nav-item">
                 <a href="/#" className="nav-link">
